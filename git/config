@@ -12,4 +12,5 @@
 	remote = origin
 	merge = refs/heads/master
 [credential]
+# helper = /usr/bin/git-credential-netrc
  helper = netrc

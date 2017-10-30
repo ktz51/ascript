@@ -1,0 +1,1 @@
+tasklist | findstr /i easyphp >nul && (echo.)||("C:\Program Files\EasyPHP-12.1\EasyPHP-12.1.exe")

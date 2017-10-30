@@ -1,0 +1,9 @@
+echo machine github.com > ~/.netrc
+echo login yourusername >> ~/.netrc
+echo password  >> ~/.netrc
+echo protocol https >> ~/.netrc
+
+#echo machine gist.github.com
+#echo login yourusername
+#echo password <token>
+#echo protocol https

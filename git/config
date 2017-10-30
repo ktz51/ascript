@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/ktz51/ascript.git
+	url = git@gitlab.com:ktz51/ascript.git
+	url = git@bitbucket.org:ktz51/final.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[credential]
+	helper = /usr/bin/git-credential-netrc

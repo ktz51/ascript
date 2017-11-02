@@ -1,0 +1,7 @@
+$('#your_id').remove();
+javascript:$('.bg-pop').remove(); //class
+javascript:$('#limitation_premium').remove();
+
+
+var el = document.getElementById( 'id' );
+el.parentNode.removeChild( el );
